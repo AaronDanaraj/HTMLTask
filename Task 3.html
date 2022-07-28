@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="contact">
+        <form action="">
+
+            <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required>
+            </div>
+
+            <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required>
+            </div>
+
+          <div>
+          <label for="Reason">Reason:</label>
+          <select id="reason" name="reason" required>
+            <option value="pay">Payment</option>
+            <option value="bug">Suspected Bugs</option>
+            <option value="priv">Privacy</option>
+          </select>
+          </div>
+
+          <div>
+          <p>Subject:</p>
+          <textarea style="height:200px; width:300px;" id="subject" placeholder="Explain your issue..." required></textarea>
+          </div>
+
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div> 
+</body>
+</html>
